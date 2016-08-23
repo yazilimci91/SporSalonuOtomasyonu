@@ -31,11 +31,10 @@
                 <table>
                     <tr>
                         <td>
-                            <asp:TextBox ID="txtTarih" runat="server" CssClass="form-control" placeHolder="Kayıt Tarihi" Enabled="false"></asp:TextBox></td>
+                            Kayıt Tarihi
+                            </td>
                         <td>
-                            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/calendar.png" ImageAlign="Bottom" Height="20px" />
-                            <ajaxToolkit:CalendarExtender ID="CalendarExtender1" PopupButtonID="ImageButton1" runat="server" TargetControlID="txtTarih"
-                                Format="yyyy.MM.dd" />
+                           <asp:TextBox ID="txtTarih" runat="server" CssClass="form-control" placeHolder="Kayıt Tarihi" TextMode="Date"  ></asp:TextBox>
                         </td>
                     </tr>
                 </table>

@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1.yonetici {
+namespace WebApplication1.admin {
     
     
-    public partial class salon_ekle {
+    public partial class musteri_Ekle {
         
         /// <summary>
         /// form2 control.
@@ -20,15 +20,6 @@ namespace WebApplication1.yonetici {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form2;
-        
-        /// <summary>
-        /// ScriptManager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
         
         /// <summary>
         /// txtAdsoyad control.
@@ -49,13 +40,13 @@ namespace WebApplication1.yonetici {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
         
         /// <summary>
-        /// txtSifre control.
+        /// txtTc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSifre;
+        protected global::System.Web.UI.WebControls.TextBox txtTc;
         
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -67,13 +58,13 @@ namespace WebApplication1.yonetici {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
-        /// txtsalonAdi control.
+        /// txtSifre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtsalonAdi;
+        protected global::System.Web.UI.WebControls.TextBox txtSifre;
         
         /// <summary>
         /// RequiredFieldValidator3 control.
@@ -85,13 +76,13 @@ namespace WebApplication1.yonetici {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
         
         /// <summary>
-        /// txtmail control.
+        /// txtMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtmail;
+        protected global::System.Web.UI.WebControls.TextBox txtMail;
         
         /// <summary>
         /// RequiredFieldValidator4 control.
@@ -103,13 +94,13 @@ namespace WebApplication1.yonetici {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
         
         /// <summary>
-        /// txtsalonadres control.
+        /// txtTel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtsalonadres;
+        protected global::System.Web.UI.WebControls.TextBox txtTel;
         
         /// <summary>
         /// RequiredFieldValidator5 control.
@@ -121,6 +112,15 @@ namespace WebApplication1.yonetici {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
         
         /// <summary>
+        /// ScriptManager1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
+        
+        /// <summary>
         /// txtTarih control.
         /// </summary>
         /// <remarks>
@@ -130,40 +130,22 @@ namespace WebApplication1.yonetici {
         protected global::System.Web.UI.WebControls.TextBox txtTarih;
         
         /// <summary>
-        /// RequiredFieldValidator6 control.
+        /// txtBitisTarihi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
+        protected global::System.Web.UI.WebControls.TextBox txtBitisTarihi;
         
         /// <summary>
-        /// txtTel control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTel;
-        
-        /// <summary>
-        /// RequiredFieldValidator7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
-        
-        /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
         /// Panel2 control.
