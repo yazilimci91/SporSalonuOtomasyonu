@@ -26,8 +26,11 @@ namespace WebApplication1.yonetici
                 SqlCommand cmd = new SqlCommand("select count(admin_id) as 'adet' from admin_tab", con);
                 SqlDataReader dr = cmd.ExecuteReader();
                 dr.Read();
-                if(dr.HasRows)
-               lbltoplam.Text= dr["adet"].ToString();
+                if (dr.HasRows)
+                {
+                  //  Response.Write("" + dr["adet"].ToString());
+                    lbltoplam.Text = dr["adet"].ToString();
+                }
             }
             catch 
             {

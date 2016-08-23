@@ -267,7 +267,7 @@
                             <a href="#"><i class="fa fa-male fa-fw"></i>Müşteri Menüsü <span class="fa arrow"></span></a>
                             <ul class="nav nav-third-level">
                                 <li>
-                                    <a href="#">Müşteri Ekle</a>
+                                    <a href="musteri_Ekle.aspx">Müşteri Ekle</a>
                                 </li>
                                 <li>
                                     <a href="buttons.html">S. Salonları</a>

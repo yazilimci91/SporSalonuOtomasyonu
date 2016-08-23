@@ -43,6 +43,52 @@
       <HintPath>..\..\..\..\..\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Client">
+      <HintPath>..\packages\NuGet.Client.3.4.3\lib\net45\NuGet.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Common">
+      <HintPath>..\packages\NuGet.Common.3.4.3\lib\net45\NuGet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.ContentModel">
+      <HintPath>..\packages\NuGet.ContentModel.3.4.3\lib\net45\NuGet.ContentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Frameworks">
+      <HintPath>..\packages\NuGet.Frameworks.3.4.3\lib\net45\NuGet.Frameworks.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Logging">
+      <HintPath>..\packages\NuGet.Logging.3.4.3\lib\net45\NuGet.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.PackageManagement">
+      <HintPath>..\packages\NuGet.PackageManagement.3.2.0\lib\net45\NuGet.PackageManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.PackageManagement.UI">
+      <HintPath>..\packages\NuGet.PackageManagement.UI.3.2.0\lib\net45\NuGet.PackageManagement.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Packaging">
+      <HintPath>..\packages\NuGet.Packaging.3.4.3\lib\net45\NuGet.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Packaging.Core">
+      <HintPath>..\packages\NuGet.Packaging.Core.3.4.3\lib\net45\NuGet.Packaging.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Packaging.Core.Types">
+      <HintPath>..\packages\NuGet.Packaging.Core.Types.3.4.3\lib\net45\NuGet.Packaging.Core.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.ProjectManagement">
+      <HintPath>..\packages\NuGet.PackageManagement.3.2.0\lib\net45\NuGet.ProjectManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Repositories">
+      <HintPath>..\packages\NuGet.Repositories.3.4.3\lib\net45\NuGet.Repositories.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.RuntimeModel">
+      <HintPath>..\packages\NuGet.RuntimeModel.3.4.3\lib\net45\NuGet.RuntimeModel.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Versioning">
+      <HintPath>..\packages\NuGet.Versioning.3.4.3\lib\net45\NuGet.Versioning.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -66,6 +112,9 @@
     <Content Include="admin\admin_profile.aspx" />
     <Content Include="admin\admin_sifre_degistirme.aspx" />
     <Content Include="admin\Anasayfa.aspx" />
+    <Content Include="admin\images\calendar.png" />
+    <Content Include="admin\musteriler.aspx" />
+    <Content Include="admin\musteri_Ekle.aspx" />
     <Content Include="Dosyalar\css\bootstrap.css" />
     <Content Include="Dosyalar\css\flexslider.css" />
     <Content Include="Dosyalar\css\style.css" />
@@ -618,6 +667,20 @@
     <Compile Include="admin\Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\musteriler.aspx.cs">
+      <DependentUpon>musteriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\musteriler.aspx.designer.cs">
+      <DependentUpon>musteriler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\musteri_Ekle.aspx.cs">
+      <DependentUpon>musteri_Ekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\musteri_Ekle.aspx.designer.cs">
+      <DependentUpon>musteri_Ekle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="yonetici\Anasayfa.aspx.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
@@ -987,6 +1050,8 @@
     <Content Include="Dosyalar\panel\less\mixins.less" />
     <Content Include="Dosyalar\panel\less\sb-admin-2.less" />
     <Content Include="Dosyalar\panel\less\variables.less" />
+    <Content Include="packages.config" />
+    <Content Include="package.builder.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1022,6 +1087,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="..\packages\NuGet.Package.Builder.1.0.10\build\NuGet.Package.Builder.targets" Condition="Exists('..\packages\NuGet.Package.Builder.1.0.10\build\NuGet.Package.Builder.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
