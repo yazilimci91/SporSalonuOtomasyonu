@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NuGet.PackageManagement.UI</id>
+    <version>3.2.0</version>
+    <title>NuGet's Package Management UI for Visual Studio</title>
+    <authors>NuGet</authors>
+    <owners>NuGet</owners>
+    <licenseUrl>https://raw.githubusercontent.com/NuGet/NuGet.Protocol/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/NuGet/NuGet.Protocol/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NuGet's Package Management UI for Visual Studio</description>
+    <summary />
+    <copyright>Copyright 2015 Microsoft. NuGet is made possible by the .NET Foundation's open source project.</copyright>
+    <dependencies>
+      <dependency id="NuGet.PackageManagement" version="3.2.0" />
+    </dependencies>
+  </metadata>
+</package>
