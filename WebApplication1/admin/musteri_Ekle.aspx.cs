@@ -24,11 +24,7 @@ namespace WebApplication1.admin
 
             try
             {
-
-             
-
-
-
+                 
                 SqlCommand cmd = new SqlCommand("insert into uyeler_tab(uye_adsoyad,uye_tc,uye_sifre,uye_mail,uye_tel,uye_kayit_tarihi,uye_bitis_tarihi,admin_id)  values(@ad,@tc,@sifre,@mail,@tel,@ktarih,@btarih,@admin)", con);
 
                 cmd.Parameters.AddWithValue("@ad", txtAdsoyad.Text.TrimEnd());

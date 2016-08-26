@@ -38,8 +38,11 @@
                             <i class="fa fa-male fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge">12</div>
-                            <div>1 Aydan Az Kalanlar</div>
+                            <div class="huge">
+                                <asp:Label ID="lblhafta" runat="server" Text=""></asp:Label>
+
+                            </div>
+                            <div>1 Haftadan Az Kalanlar</div>
                         </div>
                     </div>
                 </div>
@@ -57,17 +60,17 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3">
-                            <i class="fa fa-shopping-cart fa-5x"></i>
+                            <i class="fa fa-male fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge">124</div>
-                            <div>New Orders!</div>
+                            <div class="huge"><asp:Label ID="lblsongun" runat="server" Text=""></asp:Label></div>
+                            <div>Son Günü Olanlar</div>
                         </div>
                     </div>
                 </div>
                 <a href="#">
                     <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
+                        <span class="pull-left">Detay</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                         <div class="clearfix"></div>
                     </div>
@@ -79,17 +82,17 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-xs-3">
-                            <i class="fa fa-support fa-5x"></i>
+                            <i class="fa fa-male fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge">13</div>
+                            <div class="huge"><asp:Label ID="Label3" runat="server" Text=""></asp:Label></div>
                             <div>Support Tickets!</div>
                         </div>
                     </div>
                 </div>
                 <a href="#">
                     <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
+                        <span class="pull-left">Detay</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                         <div class="clearfix"></div>
                     </div>

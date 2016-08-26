@@ -113,6 +113,7 @@
     <Content Include="admin\admin_sifre_degistirme.aspx" />
     <Content Include="admin\Anasayfa.aspx" />
     <Content Include="admin\images\calendar.png" />
+    <Content Include="admin\msuterileri_Gor.aspx" />
     <Content Include="admin\musteriler.aspx" />
     <Content Include="admin\musteri_Ekle.aspx" />
     <Content Include="Dosyalar\css\bootstrap.css" />
@@ -666,6 +667,13 @@
     </Compile>
     <Compile Include="admin\Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\msuterileri_Gor.aspx.cs">
+      <DependentUpon>msuterileri_Gor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\msuterileri_Gor.aspx.designer.cs">
+      <DependentUpon>msuterileri_Gor.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\musteriler.aspx.cs">
       <DependentUpon>musteriler.aspx</DependentUpon>
